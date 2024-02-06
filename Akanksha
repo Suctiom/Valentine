@@ -1,3 +1,8 @@
+git init
+git remote add origin <repository-url>
+git add .
+git commit -m "Initial commit"
+git push -u origin main
 "use client";
 import { useState } from "react";
 
@@ -63,4 +68,4 @@ export default function Page() {
       )}
     </div>
   );
-}            
+}
